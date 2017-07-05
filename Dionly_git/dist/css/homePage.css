@@ -1,0 +1,44 @@
+#topbar ul, #topbar #left li, #topbar #right li, header #h_r1_p1, header #h_r1_p2, header #h_r1_p2 ul li, header #h_r2 #type #mune li, header #h_r2 li { float: left; }
+
+* { margin: 0; padding: 0; }
+
+ul li, ol li { list-style: none; }
+
+.wraper { width: 100%; background: #f3f3f3; }
+
+body { font-size: 12px; }
+
+#topbar { margin: 0 auto; width: 1260px; height: 37px; background: #f3f3f3; color: #222; font-size: 12px; }
+#topbar ul { height: 100%; line-height: 37px; }
+#topbar #left { margin-left: 45px; }
+#topbar #left #ec { margin-left: 16px; }
+#topbar #left #change { margin-left: 5px; }
+#topbar #right { margin-left: 96px; }
+#topbar #right li { margin-left: 20px; }
+#topbar #right li a { padding-left: 22px; }
+#topbar #right li #preview { color: #eb649f; background: url(../../images/icon.png) no-repeat 0px -40px; }
+#topbar #right li #realone { background: url(../../images/icon.png) no-repeat 0px -40px; }
+#topbar #right li #count { color: #e03962; }
+#topbar #right li #mydionly { background: url(../../images/icon.png) no-repeat 0px -20px; }
+#topbar #right li #phone { background: url(../../images/icon.png) no-repeat 0px -65px; }
+#topbar #right li #wx { background: url(../../images/icon.png) no-repeat -2px -95px; }
+#topbar #right li #wb { background: url(../../images/icon.png) no-repeat -3px -129px; }
+#topbar a { color: #222; text-decoration: none; }
+
+header { margin: 0 auto; width: 1165px; height: 135px; background: #fff; }
+header #h_r1 { overflow: hidden; }
+header #h_r1_p3 { float: right; }
+header #h_r1_p2 { margin-top: 20px; margin-left: 300px; }
+header #h_r1_p2 input { float: left; height: 30px; }
+header #h_r1_p2 #s_in { border: 1px solid #000; height: 28px; width: 200px; }
+header #h_r1_p2 #s_btn { border: none; height: 30px; background: #6d6c6c; width: 62px; color: #fff; }
+header #h_r1_p2 ul { height: 40px; line-height: 40px; color: #7d7d7d; }
+header #h_r1_p2 ul li { margin-right: 10px; }
+header #h_r1_p2 ul li:hover { cursor: pointer; }
+header #h_r2 { font-size: 13px; font-weight: 800; }
+header #h_r2 #type { position: relative; color: #fff; width: 200px; padding: 0; text-indent: 10px; background: #c11e20 url(../../images/icon_san.png) no-repeat 160px 0px; }
+header #h_r2 #type #mune { position: absolute; width: 200px; }
+header #h_r2 #type #mune #first { height: 81px; }
+header #h_r2 #type:hover { background-position: 160px -38px; }
+header #h_r2 li { height: 40px; line-height: 40px; padding: 0 22px; }
+header #h_r2 div { float: right; }

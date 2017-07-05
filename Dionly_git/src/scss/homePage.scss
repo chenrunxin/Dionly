@@ -1,0 +1,82 @@
+%fl{float:left;}
+*{margin:0;padding: 0;}
+ul li,ol li{list-style: none;}
+.wraper{width:100%;background: #f3f3f3;}
+body{ font-size: 12px;}
+#topbar{
+    margin: 0 auto;
+    width:1260px;
+    height:37px;
+    background: #f3f3f3;
+    color:#222;
+    font-size:12px;
+   // text-align: center;
+    ul{height:100%;line-height:37px; @extend %fl;}
+    #left li,#right li{@extend %fl}
+    #left{margin-left: 45px;#ec{margin-left: 16px;}#change{margin-left: 5px;}}
+    #right{margin-left: 96px; }
+    #right li{
+        a{padding-left: 22px;}
+        margin-left: 20px;
+        #preview{color: #eb649f;background: url(../../images/icon.png) no-repeat 0px -40px ;}
+        #realone{background: url(../../images/icon.png) no-repeat 0px -40px;}
+        #count{color:#e03962;}
+        #mydionly{background: url(../../images/icon.png) no-repeat 0px -20px ;}
+        #phone{background: url(../../images/icon.png) no-repeat 0px -65px ;}
+        #wx{background: url(../../images/icon.png) no-repeat -2px -95px ;}
+        #wb{background: url(../../images/icon.png) no-repeat -3px -129px ;}
+    }
+    
+    a{color:#222;text-decoration:none;}
+    
+}
+header{
+   
+    margin: 0 auto;
+    width:1165px;
+    height:135px;
+    background: #fff;
+    #h_r1 {overflow: hidden;}
+    #h_r1_p1,#h_r1_p2{@extend %fl;}
+    #h_r1_p3{float:right;}
+    #h_r1_p2{ 
+        margin-top:20px;
+        margin-left: 300px;
+        input{
+            float:left;
+            height:30px
+        }
+        #s_in{border:1px solid #000;height:28px;width:200px;}
+        #s_btn{border: none;height:30px;background: #6d6c6c;width: 62px;color:#fff;}
+        ul{height:40px;line-height: 40px;color:#7d7d7d;li{@extend %fl;margin-right: 10px;}
+        li:hover{cursor:pointer}
+        }
+    }
+    #h_r2{
+        font-size: 13px;
+        font-weight: 800;
+        #type{
+            position: relative;
+            color:#fff;
+            width:200px;padding:0;text-indent: 10px;
+            background: #c11e20 url(../../images/icon_san.png) no-repeat 160px 0px;         
+            #mune{
+                position:absolute;
+                width:200px;
+                li{@extend %fl;}
+                #first{height:81px;}
+                #second{};
+            }
+        }
+        
+        #type:hover{
+            background-position: 160px -38px ;
+        }
+        #home{}
+        li{@extend %fl;height:40px;line-height: 40px;padding: 0 22px;}div{float:right;}}
+        
+        
+        
+}
+
+
